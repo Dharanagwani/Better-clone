@@ -1,0 +1,18 @@
+.mortgage-calculator-page {
+    padding: 50px 0;
+  }
+  
+  .calculator-form {
+    margin: 20px 0;
+  }
+  
+  .result-card {
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    color: #007bff;
+  }
+  

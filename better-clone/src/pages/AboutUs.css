@@ -1,0 +1,85 @@
+.about-us-page {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-hero-section {
+    background: url('https://via.placeholder.com/1920x800') center/cover no-repeat;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .about-hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: fadeInDown 1.5s;
+  }
+  
+  .about-hero-subtitle {
+    font-size: 1.5rem;
+    animation: fadeInUp 1.5s;
+  }
+  
+  .mission-section {
+    padding: 50px 0;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .mission-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+  
+  .team-section {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .team-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .careers-section {
+    padding: 50px 0;
+    background: #f0f8ff;
+  }
+  
+  .careers-button {
+    margin-top: 20px;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
